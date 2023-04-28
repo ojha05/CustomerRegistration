@@ -1,0 +1,15 @@
+1.create a service method called customer_registration() which will accept I am,  name, email, password and mobile number and store them inside Database.
+
+Here Iam can be three different values( buyer,  owner, agent)
+
+If Iam value is buyer then data will store in the table name customer_registration_buyer
+
+If Iam value is owner then data will store in the table name customer_registration_owner
+
+If Iam value is agent then data will store in the table name customer_registration_agent
+
+2. Create a service method called customer_login() which will accept username (email) and password and verify customer provided login credentials with database, if username and password combination exists, then allow the customer to login to application.
+
+Here make sure the customer can be anyone from buyer. ,owner and agents.we need to check and verify across all tables. Then confirm.
+
+Also we need to send some indication from the method in return that the login customer is which type like agent, Owner or buyer.
